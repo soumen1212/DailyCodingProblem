@@ -38,6 +38,6 @@ public class FirstAndLast {
     }
     private static int cdr(cons cons) {
 
-        return Math.min(cons.a, cons.b);
+        return Math.max(cons.a, cons.b);
     }
 }
